@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Tweet } from "./components/Tweet";
-import "./App.css";
+import { Tweet } from "../components/Tweet";
+import "../App.css";
 
 function App() {
   const [tweets, setTweets] = useState<string[]>([
